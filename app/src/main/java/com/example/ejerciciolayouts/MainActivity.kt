@@ -75,7 +75,7 @@ fun Columna(ancho: Modifier, alto: Modifier) {
         Box(
             Modifier
                 .fillMaxWidth()
-                .background(Color.Red)
+                .background(Color(red = 255,  green = 192, blue = 203))
                 .weight(1f), contentAlignment = Alignment.Center
 
         ) {
